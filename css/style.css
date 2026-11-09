@@ -120,7 +120,7 @@ transition: all linear 0.3s;
 
 .aboutContent{
     display: flex;
-    gap: 200px;
+    gap: 10px;
     position: relative;
 }
 .aboutmeLeft h2{
@@ -140,11 +140,12 @@ transition: all linear 0.3s;
 }
 .aboutmeRight{
     display: flex;
-}
-.faka{
-    padding: 76px 0;
+    
+} 
+.faka{  
+    padding:66px 0;
     background:#222831;
-     border-bottom:1px solid #eeeeee42 ;
+     border-bottom:1px solid #eeeeee2c ;
 
 }
 
@@ -202,7 +203,54 @@ margin-bottom: 48px;
 gap: 48px;
 }
 
-
-
-   
 /* Works  part Css Ends Here  */
+
+/* contact part css Start Here */
+#contactPart{
+    padding: 258px 0;
+    background: #222831;
+    /* text-align: center; */
+}
+.contactLeft{
+    position: relative;
+}
+.contactLeft .contactpechano{
+    position: absolute;
+    top: 35%;
+    left: -163px;
+}
+.contactLeft h2{
+    font-weight: 700;
+    font-size: 74px;
+    line-height: 90px;
+    color: #EEEEEE;
+}
+.contactLeft h2 span{
+    color: #00ADB5 ;
+
+}
+.contactLeft,
+.contactRight{
+    width: 38%;
+    left: 40%;
+}
+.contactFlex{
+    display: flex;
+   
+}
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact part css Ends Here */
