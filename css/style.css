@@ -239,7 +239,7 @@ gap: 48px;
 }
 .contactFlex{
     display: flex;
-   
+   gap: 24px;
 }
     
     
