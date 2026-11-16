@@ -128,8 +128,8 @@ transition: all linear 0.3s;
     font-size:64px;
     color:#EEEEEE;
 }
-.aboutmeLeft h2 samp b{
-    color: #EEEEEE;
+.aboutmeLeft h2 span{
+    color:#00ADB5;
 }
 .aboutmeLeft p{
     font-weight: 400;
@@ -211,49 +211,191 @@ gap: 48px;
 /* Works  part Css Ends Here  */
 
 /* contact part css Start Here */
-#contactPart{
-    padding: 258px 0;
-    background: #222831;
-    /* text-align: center; */
-}
- 
-.contactLeft .contactpechano{
-    position: absolute;
-    top: 35%;
-    left: -163px;
-}
-.contactLeft h2{
-    font-weight: 700;
-    font-size: 64px;  
-    line-height: 80px;
-    color: #EEEEEE;
-}
-.contactLeft h2 span{
-    color: #00ADB5 ;
+
+
+.contact{
+display: flex;
+
 
 }
-.contactLeft,
-.contactRight{
-    width: 38%;
-    left: 40%;
+#contactPart{
+padding: 258px 0;
+background:#222831;
+
+}
+/* .contact{
+    display: flex;
+} */
+
+.contactLeft h2{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 80px;
+    color:#EEEEEE ;
+    width:100%;
+    
+}
+.contactLeft{
+position: relative;
+}
+.contactLeft .pechano{
+    position:absolute ;
+    top: 43%;
+    left:-35%;
+}
+.contactLeft img{
+margin-left:100px  ;
+
+}
+
+.contactLeft h2 span{
+    color: #00ADB5; 
 }
 .contactFlex{
     display: flex;
-   gap: 24px;
+    gap: 24px;
+    flex-wrap: wrap;
 }
+
+.contactRight{
+    position: relative;
     
+}
+.contactRight img{
+    position: absolute;
+    top: -25%;
+    left: 10%;
     
+}
+.name h5{
+    font-weight: 700;
+    font-size: 18px;
+    color: #EEEEEE;
+}
+.name input,
+.Email input{
+width: 288px ;
+background-color:#393E46 ;
+opacity: 5;
+ border: none;
+ outline: none;
+ padding-top:16px;
+ padding-bottom:16px;
+ padding-left: 24px;
+ border-radius: 16px;
+ margin-top: 10px ;
+}
+
+.Email h5{
+    font-weight: 700;
+font-size: 18px;
+color: #EEEEEE;
+}
+
+.name input::placeholder,
+.Email input::placeholder{
+    font-weight:700;
+    font-size: 18px;
+    color:#EEEEEE ;
+    opacity: 5 ;
+}
+.Message h3{
+font-weight: 700;
+font-size:18px;
+color: #EEEEEE;
+
+}
+.Message textarea{
+/* width: 615px ; */
+/* height: 288px; */
+background-color:#393E46 ;
+opacity: 5;
+ border: none;
+ outline: none;
+ padding-top:16px;
+ padding-bottom:16px;
+ padding-left: 24px;
+ border-radius: 16px;
+ margin-top: 10px ;
+ font-weight: 700;
+ font-size: 18px;
+ color: #EEEEEE;
+ opacity: .5;
+}
+.btn button{
+    background: #00ADB5;
+    padding:10px 22px ;
+    border: none;
+    border-radius:24px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #EEEEEE;
+    
+}
+/* contact{.
+position: relative; */
 
 
+/* }
+.contact img.mail{
+position: absolute;
+/* right: 50px;
+bottom: 10px; */
 
+/* contact css Ends Here */
 
+/* Footer css Start Here */
+#footerPart{
+    padding-top: 100px;
+    padding-bottom: 48px;
+    background-color: #222831;
+}
+.footermenu ul{
+   display:flex;
+   gap:58px ;
+   justify-content: center;
+}
 
+.footermenu ul li i{
+margin-right:18px ;
+}
+.footermenu ul li{
+    color: #EEEEEE;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footerSociallcon{
+   margin-top: 38px;
+   display: flex;
+   gap: 24px;
+   justify-content: center;
 
+}
+.common{
+    width: 48px;
+    height: 48px;
+    background-color: #393E46;
+    border-radius: 50%;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.common:hover{
+    background-color: #00ADB5;
+    transition: all linear;
+}
+.common i{
+color:#EEEEEE;
+opacity: .75;
+font-size: 20px;
+}
+.footer p{
+    margin-top: 122px;
+    color:#EEEEEE;
+    opacity: .75;
+    font-size: 18px;  
+    font-weight: 400;
+    text-align: right;
 
-
-
-
-
-
-
-/* contact part css Ends Here */
+}
+/* Footer css Ends Here */
